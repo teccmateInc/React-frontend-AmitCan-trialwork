@@ -1,0 +1,39 @@
+.radio-stick__root {
+  position: relative;
+}
+
+.radio-stick {
+    position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 15px 15px 15px 20px;
+  box-sizing: border-box;
+  width: 730px;
+  height: 50px;
+  border: 1px solid #f2f2f2;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.radio-stick__text {
+  margin-left: 10px !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 15px !important;
+  line-height: 18px !important;
+  color: #000000 !important;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.radio-stick__override {
+  background: #d5e3fe !important;
+  border-radius: 30px !important;
+}
+
+.extra-comp__override {
+  display: block !important;
+}

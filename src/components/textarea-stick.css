@@ -1,0 +1,27 @@
+.textarea-stick {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+  letter-spacing: 0.26px;
+  color: #555555;
+  padding: 10px 17px;
+  margin-bottom: 25px;
+  resize: vertical;
+}
+
+.textarea-hr {
+  margin-bottom: 30px;
+  border-top: 1px solid #efefef;
+}
+
+::-webkit-resizer {
+  background-image: url(../icons/svg/grabber.svg);
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,79 @@
+.multiselect {
+  min-width: 728px;
+  width: 100%;
+  border-radius: 3px;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: all 1s ease-in;
+}
+
+.selectBox .select-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  width: 100%;
+  font-weight: 500;
+  padding: 15px 18px;
+  border: none;
+  color: #555555;
+  border: 1px solid #e6e6e6 !important;
+  outline: none !important;
+  user-select: none !important;
+  transition: all 1s ease-in;
+}
+
+.open-span {
+  position: absolute;
+  background-color: #fff;
+  transform: translate(15px, -10px);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.26px;
+  color: #286ef1;
+  padding: 0 5px;
+  transition: all 1s ease-in;
+}
+
+#checkboxes {
+  display: none;
+  border: 1px solid #e6e6e6;
+  border-top: none;
+  max-height: 176px;
+  overflow-y: auto;
+  transition: all 1s ease-in;
+}
+
+#checkboxes::-webkit-scrollbar {
+  width: 10px;
+}
+
+#checkboxes::-webkit-scrollbar-thumb {
+  background: #dedede;
+  border-radius: 6px;
+  border: 3px solid #fff;
+}
+
+#checkboxes label {
+  display: flex;
+  height: 50px !important;
+  min-width: 715px !important;
+  width: 100% !important;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+  transition: all 1s ease-in;
+}
+
+#checkboxes label:hover {
+  background-color: #286ef1;
+}
+
+.checkbox-field {
+  margin-left: 14px;
+  margin-right: 10px;
+}
+
+/* .selectBox select:focus option */
