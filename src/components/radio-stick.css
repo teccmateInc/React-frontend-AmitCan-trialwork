@@ -3,7 +3,7 @@
 }
 
 .radio-stick {
-    position: relative;
+  position: relative;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -36,4 +36,10 @@
 
 .extra-comp__override {
   display: block !important;
+}
+
+@media only screen and (max-width: 950px) {
+  .radio-stick {
+    width: 100%;
+  }
 }

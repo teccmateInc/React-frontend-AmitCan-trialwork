@@ -10,7 +10,6 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  min-width: 1050px;
   width: 80%;
 }
 
@@ -106,6 +105,7 @@
 .cancel-survey__warning p {
   margin-top: 15px;
   margin-bottom: 15px;
+  margin-right: 20px;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -150,4 +150,24 @@
   line-height: 15px;
   border: none;
   color: #ffffff;
+}
+
+@media only screen and (max-width: 950px) {
+  .cancel-survey__reasons {
+    width: 90%;
+  }
+
+  .cancel-survey__bottom-align {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .cancel-survey__reasons {
+    width: 92%;
+  }
+
+  .cancel-survey__align {
+    width: 90%;
+  }
 }

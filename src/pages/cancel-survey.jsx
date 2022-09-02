@@ -8,6 +8,7 @@ import TextareaStick from "../components/textarea-stick";
 import TextWithIcon from "../components/text-with-icon";
 import SelectStick from "../components/select-stick";
 import ButtonRadio from "../components/button-radio";
+import { useNavigate } from "react-router-dom";
 
 const BugStick = () => {
   return (
@@ -90,11 +91,15 @@ const radiosData = [
 ];
 
 const CancelSurvey = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="cancel-survey">
       <div className="cancel-survey__align">
         <div className="cancel-survey__header">
-          <div>&lt;</div>
+          <div style={{ cursor: "pointer" }} onClick={() => navigate("/")}>
+            &lt;
+          </div>
           <h4>Cancellation Survey</h4>
         </div>
         <hr />
@@ -106,7 +111,7 @@ const CancelSurvey = () => {
               <RadioStick key={rad.id} rad={rad} />
             ))}
           </div>
-          <div>
+          <div className="cancel-survey__bottom-align">
             <div className="cancel-survey__warning">
               <img src={Warning} alt="warning" />
               <p>
